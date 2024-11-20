@@ -1,29 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2024-09-06T10:46:23.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="wCsyUn0fQDv3JelaC2Hg" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="l30IbhKH9xJvvBqIYpb2">
-    <mxGraphModel dx="2954" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2954" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="agV-jllId4Z2bgYopUoT-1" value="Estimate temperature drop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="agV-jllId4Z2bgYopUoT-1" value="Estimate temperature drop/increase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-2" value="Read last valid&lt;div&gt;- temperature&lt;/div&gt;&lt;div&gt;- saved time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-3" value="Read&lt;div&gt;- air temperature to saved time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-4" value="Read&lt;div&gt;- Calculated temperature drop pr hour&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-5" value="Generate array&lt;div&gt;- yesterday&lt;/div&gt;&lt;div&gt;- today&lt;/div&gt;&lt;div&gt;- tomorrow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-6" value="Any days with &amp;gt;20 upcoming?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agV-jllId4Z2bgYopUoT-7" value="read weatgher.forecast&lt;div&gt;-&amp;nbsp; days&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mAH02AJmvs05kJ934_5E-1" value="dohe home?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAH02AJmvs05kJ934_5E-2" value="Time of year&lt;div&gt;(winter/summer) aka cooling/heating?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAH02AJmvs05kJ934_5E-3" value="Measured temperature" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAH02AJmvs05kJ934_5E-4" value="Target temperature" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="620" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
