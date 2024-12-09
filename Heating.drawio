@@ -46,6 +46,9 @@
         <mxCell id="mAH02AJmvs05kJ934_5E-7" value="Nattsenking?&lt;br&gt;(-1 g C)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="620" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="mAH02AJmvs05kJ934_5E-8" value="Target temperature&lt;br&gt;+2 0,5g eller %" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
